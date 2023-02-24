@@ -1,0 +1,8 @@
+<resources>
+    <style name="AC_EQUAL" parent="@android:style/Widget.Button">
+        <item name="android:backgroundTint">@color/black</item>
+        <item name="android:textColor">#FF0000</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:paddingVertical">30px</item>
+    </style>
+</resources>

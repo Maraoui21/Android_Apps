@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:grid="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    tools:ignore="NamespaceTypo">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/Board"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:text="0"
+            android:textAlignment="textEnd"
+            android:textSize="20pt" />
+
+        <androidx.gridlayout.widget.GridLayout
+            android:id="@+id/GridContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:columnCount="4"
+            app:useDefaultMargins="true">
+
+            // row 1
+
+            <Button
+                android:text="7"
+                android:theme="@style/NormalBtnStyle"
+                grid:layout_columnWeight="1" />
+            <Button
+                android:theme="@style/NormalBtnStyle"
+                android:layout_width="wrap_content"
+                android:text="8"
+                grid:layout_columnWeight="1" />
+
+            <Button
+                android:theme="@style/NormalBtnStyle"
+                android:text="9"
+                grid:layout_columnWeight="1" />
+
+            <Button
+                android:theme="@style/OperationsBtnStyle"
+                android:text="+"
+                grid:layout_columnWeight="1" />
+            // row 2
+
+            <Button
+                android:theme="@style/NormalBtnStyle"
+                android:text="4"
+                grid:layout_columnWeight="1" />
+
+            <Button
+                android:theme="@style/NormalBtnStyle"
+                android:layout_width="wrap_content"
+                android:text="5"
+                grid:layout_columnWeight="1" />
+
+            <Button
+                android:theme="@style/NormalBtnStyle"
+                android:text="6"
+                grid:layout_columnWeight="1" />
+
+            <Button
+                android:theme="@style/OperationsBtnStyle"
+                android:text="-"
+                grid:layout_columnWeight="1" />
+            // row 3
+
+            <Button
+                android:theme="@style/NormalBtnStyle"
+                android:text="1"
+                grid:layout_columnWeight="1" />
+
+            <Button
+                android:theme="@style/NormalBtnStyle"
+                android:layout_width="wrap_content"
+                android:text="2"
+                grid:layout_columnWeight="1" />
+
+            <Button
+                android:theme="@style/NormalBtnStyle"
+                android:text="3"
+                grid:layout_columnWeight="1" />
+
+            <Button
+                android:theme="@style/OperationsBtnStyle"
+                android:text="*"
+                grid:layout_columnWeight="1" />
+            // row 4
+
+            <Button
+                android:theme="@style/NormalBtnStyle"
+                android:text="0"
+                app:layout_columnSpan="3"
+                grid:layout_columnWeight="3" />
+
+            <Button
+                android:theme="@style/OperationsBtnStyle"
+                android:text="/"
+                grid:layout_columnWeight="1"
+                grid:layout_gravity="fill_horizontal" />
+            // last row
+
+            <Button
+                android:theme="@style/AC_EQUAL"
+                android:text="AC"
+                app:layout_columnSpan="2"
+                grid:layout_columnWeight="2" />
+
+            <Button
+                android:theme="@style/AC_EQUAL"
+                android:text="="
+                app:layout_columnSpan="2"
+                grid:layout_columnWeight="2" />
+        </androidx.gridlayout.widget.GridLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

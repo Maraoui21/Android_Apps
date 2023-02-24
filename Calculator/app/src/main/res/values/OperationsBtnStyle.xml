@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OperationsBtnStyle" parent="@android:style/Widget.Button">
+        <item name="android:backgroundTint">@color/orange</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:paddingVertical">30px</item>
+    </style>
+</resources>
