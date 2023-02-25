@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FontTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textSize">8pt</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>

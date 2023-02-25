@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="100px"
+        android:layout_marginVertical="400px"
+        android:theme="@style/FontTheme"
+        app:columnCount="1"
+        app:useDefaultMargins="true"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="150dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100px"
+            android:text="@string/message" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow"
+            android:padding="15px"
+            android:textColor="@color/white"
+            android:text="Email" />
+
+        <TextView
+            android:id="@+id/Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:width="40dp"
+            android:ems="10"
+            android:hint="@string/empty"
+            android:inputType="textEmailAddress"
+            android:paddingBottom="20dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:background="@color/yellow"
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15px"
+            android:textColor="@color/white"
+            android:text="Password" />
+
+        <TextView
+            android:id="@+id/Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/empty"
+            android:inputType="textPersonName"
+            android:paddingBottom="20dp"
+            android:textSize="18sp" />
+
+    </androidx.gridlayout.widget.GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

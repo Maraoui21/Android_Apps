@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Maraoui Yassine</string>
+    <string name="email">Type your email</string>
+    <string name="password">Type your Password</string>
+    <string name="empty">Empty</string>
+    <string name="message">Your Informations is :</string>
+</resources>

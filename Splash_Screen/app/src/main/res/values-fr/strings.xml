@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Maraoui Yassine</string>
+    <string name="email">Tapez votre email</string>
+    <string name="password">Tapez votre mot de pass</string>
+    <string name="empty">Vide</string>
+    <string name="message">Votre informatinos sont :</string>
+</resources>
