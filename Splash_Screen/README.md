@@ -1,4 +1,4 @@
-# SPLASH SCREEN + NAVIGATION + MYLTI LANGUAGES
+# SPLASH SCREEN + NAVIGATION + MULTI LANGUAGES
 <img width="100%" src="https://user-images.githubusercontent.com/100817261/221364643-b4701505-ad2e-490e-857b-50a17f38855d.gif"/>
 <h1>English version</h1>
 <div style="display:flex;justify-content: space-between;">
